@@ -78,7 +78,7 @@ nav {
     padding: 5px 0;
 }
 
-#nav-list li a:hover {
+#nav-list li:not(:last-child) a:hover {
     border-top: 1px solid lightsteelblue;
     border-bottom: 1px solid lightsteelblue;
 }
@@ -92,12 +92,19 @@ nav {
     font-family: sans-serif;
     font-size: 16px;
     border: 1px solid #3498DB; 
+    cursor: pointer;
     transition: color 0.35s, background-color 0.35s;
 }
 
-#nav-list button:hover {
+#nav-list button a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-list button:hover, #nav-list button:hover a{
     color: #3498DB;
     background-color: white;
+    transition: color 0.35s;
 }
 
 #landing-section{
@@ -131,6 +138,7 @@ nav {
 }
 
 #hero-content button {
+    cursor: pointer;
     margin-top: 25px;
     color: #3498DB;
     font-family: 'Raleway', sans-serif;
@@ -143,9 +151,15 @@ nav {
     transition: color 0.5s, background-color 0.5s;
 }
 
-#hero-content button:hover {
+#hero-content button a {
+    text-decoration: none;
+    color: #3498DB;
+}
+
+#hero-content button:hover, #hero-content button:hover a {
     color: white;
     background-color: #3498DB;
+    transition: color 0.5s;
 }
 
 #hero-hovering-image {
@@ -154,19 +168,19 @@ nav {
 
 #hero-hovering-image img {
     width: 90%;
-    animation: hero-image-hover 4s infinite ease-in-out;
+    animation: hero-image-hover 1.5s infinite ease-in-out;
     scale: 0.8;
 }
 
 @keyframes hero-image-hover {
     0% {
-        transform: translateY(5px);
+        transform: translateY(40px);
     }
     50% {
-        transform: translateY(-10px);
+        transform: translateY(-40px);
     }
     100% {
-        transform: translateY(5px);
+        transform: translateY(40px);
     }
 }
 
@@ -252,6 +266,7 @@ nav {
 }
 
 #about-us-section button {
+    cursor: pointer;
     font-family: sans-serif;
     font-size: 1.3rem;
     color: white;
@@ -261,14 +276,19 @@ nav {
     padding: 13px 48px;
     border-radius: 115px;
     border: 2px solid #3498DB;
-    transition: color 0.35s, background-color 0.35s, border 0.35s;
+    transition: color 0.5s, background-color 0.5s, border 0.5s;
     box-sizing: border-box;
-    
 }
 
-#about-us-section button:hover {
+#about-us-section button a {
+    text-decoration: none;
+    color: white;
+}
+
+#about-us-section button:hover, #about-us-section button:hover a {
     color: #3498DB;
     background-color: white;
+    transition: color 0.5s;
 }
 
 #perks-section {
