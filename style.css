@@ -1,10 +1,12 @@
-html {
-    scroll-behavior: smooth;
-} 
-
+/* Reset margin for all elements */
 * {
     margin: 0;
 }
+
+/* Apply smooth scrolling behavior to all anchor links */
+html {
+    scroll-behavior: smooth;
+} 
 
 body {
     box-sizing: border-box;
@@ -12,12 +14,14 @@ body {
     scrollbar-width: none;
 }
 
+/* Navigation bar styles */
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Header styles */
 #header {
     box-shadow: 0 0 5px 1px lightslategrey;
     width: 100%;
@@ -32,6 +36,7 @@ nav {
     line-height: 40px;
 }
 
+/* Logo styles */
 #logo {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
@@ -39,6 +44,7 @@ nav {
     margin-left: 115px;
 }
 
+/* Icon styles within the logo */
 #logo i {
     color: white;
     background-color: orange;
@@ -47,42 +53,50 @@ nav {
     margin: 0 20px;
 }
 
+/* Style the text within the logo */
 #logo span:first-of-type {
     font-weight: 1000;
 }
 
+/* Additional styling for the second span in the logo */
 #logo span:nth-of-type(2) {
     font-size: 1rem;
 }
 
+/* Navigation list container styles */
 #nav-list {
     display: flex;
     margin-right: 115px;
     font-family: sans-serif;
 }
 
+/* Style the unordered list within the navigation list */
 #nav-list ul {
     list-style: none;
     display: flex;
     color: #131313b0;
 }
 
+/* Style anchor links within the list items */
 #nav-list li {
     margin: 0 15px;
     padding: 10px auto;
 
 }
 
+/* Style anchor links within the list items */
 #nav-list li a {
     text-decoration: none;
     padding: 5px 0;
 }
 
+/* Style the hover effect for anchor links, except for the last one */
 #nav-list li:not(:last-child) a:hover {
     border-top: 1px solid lightsteelblue;
     border-bottom: 1px solid lightsteelblue;
 }
 
+/* Button styles within the navigation list */
 #nav-list button {
     box-sizing: border-box;
     background-color: #3498DB;
@@ -101,22 +115,26 @@ nav {
     color: white;
 }
 
+/* Button hover effect styles */
 #nav-list button:hover, #nav-list button:hover a{
     color: #3498DB;
     background-color: white;
     transition: color 0.35s;
 }
 
+/* Styles for the landing section */
 #landing-section{
     font-family: 'Raleway', sans-serif;
     display: flex;
     margin: 50px 120px;
 }
 
+/* Styles for the hero content */
 #hero-content {
     width: 50%;
 }
 
+/* Styles for the hero content's heading */
 #hero-content h1 {
     font-weight: 700;
     font-size: 48px;
@@ -132,11 +150,13 @@ nav {
     line-height: 34px;
 }
 
+/* Styles for a special icon */
 .fa-square-check {
     color: rgb(47, 255, 95);
     margin-right: 5px;
 }
 
+/* Styles for the hero content's button */
 #hero-content button {
     cursor: pointer;
     margin-top: 25px;
@@ -156,6 +176,7 @@ nav {
     color: #3498DB;
 }
 
+/* Button hover effect styles */
 #hero-content button:hover, #hero-content button:hover a {
     color: white;
     background-color: #3498DB;
@@ -166,12 +187,14 @@ nav {
     width: 50%;
 }
 
+/* Styles for images within the hovering image section */
 #hero-hovering-image img {
     width: 90%;
     animation: hero-image-hover 1.5s infinite ease-in-out;
     scale: 0.8;
 }
 
+/* Keyframes for the hovering image animation */
 @keyframes hero-image-hover {
     0% {
         transform: translateY(40px);
@@ -184,6 +207,7 @@ nav {
     }
 }
 
+/* Styles for the about us section */
 #about-us-section {
     font-family: sans-serif;
     padding-top: 15px;
@@ -197,6 +221,7 @@ nav {
     font-size: 2.5rem;
 }
 
+/* Styles for decorative lines before and after the section title */
 #about-us-section #section-title h2::before {
     content: "";
     display: inline-block;
@@ -226,6 +251,7 @@ nav {
     display: flex;
 }
 
+/* Styles for the achievements image */
 #achievements-image {
     width: 45%;
 }
@@ -235,6 +261,7 @@ nav {
     width: 100%;
 }
 
+/* Styles for the achievements information section */
 #achievements-info {
     width: 55%;
     display: flex;
@@ -265,6 +292,7 @@ nav {
     line-height: 0px;
 }
 
+/* Styles for buttons within the about us section */
 #about-us-section button {
     cursor: pointer;
     font-family: sans-serif;
@@ -285,16 +313,19 @@ nav {
     color: white;
 }
 
+/* Button hover effect styles */
 #about-us-section button:hover, #about-us-section button:hover a {
     color: #3498DB;
     background-color: white;
     transition: color 0.5s;
 }
 
+/* Styles for the perks section */
 #perks-section {
     margin: 50px 25px;
 }
 
+/* Button hover effect styles within the perks section */
 #perks-section button:hover {
     color: #3498DB;
     background-color: white;
@@ -309,6 +340,7 @@ nav {
     font-size: 2.5rem;
 }
 
+/* Styles for decorative lines before and after the section title */
 #perks-section #section-title h2::before {
     content: "";
     display: inline-block;
@@ -332,6 +364,7 @@ nav {
     margin-top: 5px;
 }
 
+/* Styles for the perk cards section */
 #perk-cards-section {
     display: flex;
     justify-content: center;
@@ -339,6 +372,7 @@ nav {
     margin: 15px 80px;
 }
 
+/* Styles for div container within the perk cards section */
 #perk-cards-section div {
     border: 1px solid rgba(72, 72, 72, 0.488);
     box-sizing: border-box;
@@ -351,6 +385,7 @@ nav {
     transition: background-color 0.3s;
 }
 
+/* Styles for icons within the perk cards section */
 #perk-cards-section .fa-solid {
     color: white;
     padding: 10px;
@@ -361,6 +396,7 @@ nav {
     
 }
 
+/* Styles for logos within the perk cards section */
 #perk-cards-section #logo1 {
     height: 41px;
     width: 54px;
@@ -383,6 +419,7 @@ nav {
     border-radius: 40px;
 }
 
+/* Styles for the lists within the perk cards section */
 #perk-cards-section ul {
     padding-top: 21px;
 }
@@ -391,16 +428,19 @@ nav {
     padding-top: 5px;
 }
 
+/* Hover effect styles for div elements */
 #perk-cards-section div:hover{
     background-color: #0e83d0;
     color: white;
 }
 
+/* Hover effect styles for icons within div elements */
 #perk-cards-section div:hover .fa-solid{
     color: #0e83d0;
     background-color: white;
 }
 
+/* Styles for the contact section */
 #contact-section {
     display: flex;
     flex-direction: column;
@@ -423,6 +463,7 @@ nav {
     font-family: sans-serif;
 }
 
+/* Styles for the socials section within the contact section */
 #contact-section #socials-section {
     display: flex;
 }
@@ -431,6 +472,7 @@ nav {
     padding: 4px;
 }
 
+/* Styles for icons within the socials section */
 #contact-section #socials-section div i{
     margin-top: 3px;
     border: 1px solid #0e83d0;
@@ -442,11 +484,13 @@ nav {
     transition: color 0.3s, background-color 0.3s;
 } 
 
+/* Hover effect styles for icons within the socials section */
 #contact-section #socials-section div i:hover {
     color: white;
     background-color: #0e83d0;
 }
 
+/* Styles for the footer */
 footer {
     text-align: center;
     font-family: sans-serif;
