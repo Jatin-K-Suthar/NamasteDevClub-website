@@ -7,7 +7,7 @@ The Namaste Dev Club website stands as a testament to my proficiency in the worl
 ### HTML5, CSS3, and VCS Proficiency:
   * Proficient HTML5 and CSS3: The project showcases a strong command of HTML5 and CSS3, resulting in well-structured and responsive web pages.
   * Modular and organized code, ensuring readability and making it a breeze to collaborate on. The project stands out for its comprehensive code documentation. Detailed comments and explanations accompany each section, facilitating understanding, maintenance, and collaboration among developers.
-  * __Version Control with Git:__ The project is meticulously version-controlled using Git, with clear commit messages that provide insights into the progression of the codebase. This version control practice allows for easy tracking of changes and issue resolution.
+  * __Version Control with Github:__ The project is meticulously version-controlled using Git, with clear commit messages that provide insights into the progression of the codebase. This version control practice allows for easy tracking of changes and issue resolution.
 
 ### User Interface Excellence:
   * User-Friendly Interface and Navigation: The site's clean and minimalistic look not only makes it easy on the eyes but also helps you focus on what's important.The design prioritizes clean aesthetics with a minimalist, white theme, ensuring a visually appealing and distraction-free user experience.
