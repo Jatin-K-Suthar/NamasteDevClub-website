@@ -4,14 +4,15 @@ Namaste Dev Club, a virtual oasis tailored for frontend developers, beckons you 
 ## Skills Demonstrated
 The Namaste Dev Club website stands as a testament to my proficiency in the world of web development, highlighting my mastery of HTML5 and CSS3. This project exemplifies my capability to construct an engaging and seamless user experience, skillfully harnessing these languages to craft an inviting digital gateway. Beyond technical prowess, the website embodies a commitment to user-centric design principles, characterized by minimalistic aesthetics and a pristine, white-themed layout. Namaste Dev Club mirrors a vibrant community of frontend developers, united through compelling web design and a vision towards excellence.
 
-### HTML & CSS Proficiency:
+### HTML5, CSS3, and VCS Proficiency:
   * Proficient HTML5 and CSS3: The project showcases a strong command of HTML5 and CSS3, resulting in well-structured and responsive web pages.
-  * Modular and organized code, ensuring readability and making it a breeze to collaborate on. The project stands out for its comprehensive code documentation. Detailed comments and explanations accompany each section, facilitating understanding, maintenance, and collaboration among developers. Lastly, Git and GitHub are employed for effective version control, facilitating collaborative development and code tracking.
+  * Modular and organized code, ensuring readability and making it a breeze to collaborate on. The project stands out for its comprehensive code documentation. Detailed comments and explanations accompany each section, facilitating understanding, maintenance, and collaboration among developers.
+  * __Version Control with Github:__ The project is meticulously version-controlled using Git, with clear commit messages that provide insights into the progression of the codebase. This version control practice allows for easy tracking of changes and issue resolution.
 
 ### User Interface Excellence:
   * User-Friendly Interface and Navigation: The site's clean and minimalistic look not only makes it easy on the eyes but also helps you focus on what's important.The design prioritizes clean aesthetics with a minimalist, white theme, ensuring a visually appealing and distraction-free user experience.
   * Visual Consistency: Every aspect of the user interface, from typography choices to button styles, adheres to a consistent visual language. This consistency creates a cohesive and harmonious user experience.
-  
+ 
 ---
 ### Code Splitting: This section has moved [here.](https://facebook.github.io/create-react-app/docs/code-splitting)
 ---
